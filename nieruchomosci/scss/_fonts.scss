@@ -1,7 +1,78 @@
-body {
-    font-family: $font-primary;
+body * {
+  font-family: $font-primary;
 }
 
-p, li {
-    color: $color-text;
+p,
+li {
+  color: $color-text;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+li,
+a {
+  line-height: 1.4;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 1em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-style: italic;
+  color: $color-secondary;
+}
+
+h1 {
+}
+h2 {
+}
+h3 {
+}
+h4 {
+}
+h5,
+h6 {
+}
+
+/* ==== BUTTONS ==== */
+.btn {
+  display: inline-block;
+  padding: 0.75rem 2.3rem;
+  &.btn-primary {
+    background-color: $color-primary;
+    color: #fff;
+    transition: 0.2s;
+    &:hover {
+      background: $color-primary-dark;
+      letter-spacing: 0.05rem;
+    }
+    &::after {
+      font-size: 0.9rem;
+      content: "\f054";
+      font-family: "Font Awesome 5 Free";
+      font-weight: 900;
+      margin-left: 0.2rem;
+      display: inline-block;
+    }
+    &:hover:after {
+      animation: ani 0.2s ease-in 0.1s infinite alternate;
+    }
+  }
 }

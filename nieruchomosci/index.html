@@ -1,74 +1,163 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <title>Document</title>
+    <!-- Vendor -->
+    <link rel="stylesheet" href="vendor/normalize.css" />
+    <link rel="stylesheet" href="vendor/bootstrap-grid.min.css" />
 
-  <!-- Vendor -->
-  <link rel="stylesheet" href="vendor/normalize.css" />
-  <link rel="stylesheet" href="vendor/bootstrap-grid.min.css" />
+    <!-- Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i&display=swap&subset=latin-ext"
+      rel="stylesheet"
+    />
 
-  <!-- Fonts -->
-  <link
-    href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i&display=swap&subset=latin-ext"
-    rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+      integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+      crossorigin="anonymous"
+    />
 
-  <!-- Styles -->
-  <link rel="stylesheet" href="css/style.css" />
-</head>
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
 
-<body>
-  <header class="site-header">
-    <div class="top-header"></div>
-    <nav class="main-navigation">
-      <button id="button-menu-toggle" class="button-menu-toggle">
-        Menu
-      </button>
-      <div class="container main-nav-wrapper">
-        <ul class="site-nav" id="site-navigation">
-          <li class="menu-item">
-            <a href="#">O nas</a>
-          </li>
-          <li class="menu-item">
-            <a href="#">Aktualności</a>
-          </li>
-          <li class="menu-item current-menu-item">
-            <a href="#">Świadczymy profesjonalne usługi</a>
-          </li>
-          <li class="menu-item">
-            <a href="#">Stacja odstawcza w Bielsku-Białej</a>
-          </li>
-          <li class="menu-item">
-            <a href="#">Zakład Mechaniczno-biologicznego przetwarzania odpadów w
-              Przemyślu</a>
-          </li>
-          <li class="menu-item">
-            <a href="#">Nieruchomości na wynajem i na sprzedaż</a>
-          </li>
-          <li class="menu-item">
-            <a href="#">Obiekty i usługi handlowe</a>
-          </li>
-          <li class="menu-item">
-            <a href="#">Zarządzanie jakością</a>
-          </li>
-          <li class="menu-item">
-            <a href="#">Kontakt</a>
-          </li>
-        </ul>
+  <body id="site-body">
+    <header class="site-header">
+      <div class="top-header"></div>
+      <nav class="main-navigation">
+        <button id="button-menu-toggle" class="button-menu-toggle">
+          Menu
+        </button>
+        <div class="container main-nav-wrapper">
+          <ul class="site-nav" id="site-navigation">
+            <li class="menu-item">
+              <a href="#">O nas</a>
+            </li>
+            <li class="menu-item">
+              <a href="#">Aktualności</a>
+            </li>
+            <li class="menu-item current-menu-item">
+              <a href="#">Świadczymy profesjonalne usługi</a>
+            </li>
+            <li class="menu-item">
+              <a href="#">Stacja odstawcza w Bielsku-Białej</a>
+            </li>
+            <li class="menu-item">
+              <a href="#"
+                >Zakład Mechaniczno-biologicznego przetwarzania odpadów w
+                Przemyślu</a
+              >
+            </li>
+            <li class="menu-item">
+              <a href="#">Nieruchomości na wynajem i na sprzedaż</a>
+            </li>
+            <li class="menu-item">
+              <a href="#">Obiekty i usługi handlowe</a>
+            </li>
+            <li class="menu-item">
+              <a href="#">Zarządzanie jakością</a>
+            </li>
+            <li class="menu-item">
+              <a href="#">Kontakt</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div
+        class="banner"
+        style="background-image: url('img/placeholder-baner-150.png')"
+      >
+        <div class="container">
+          <h1 class="page-title">
+            Nieruchomości
+          </h1>
+        </div>
       </div>
-    </nav>
-    <div class="banner">
+    </header>
+
+    <section class="section-two-columns">
       <div class="container">
-        <h1 class="page-title">
-          Nieruchomości
-        </h1>
-      </div>
-    </div>
-  </header>
-  <script src="js/script.js"></script>
-</body>
+        <div class="row">
+          <div
+            class="col-md-6 d-flex flex-column justify-content-center align-items-end"
+          >
+            <h2 class="title">Gdzie jesteśmy?</h2>
+            <p class="description">
+              Zakłady Usługowe "Południe" sp. z o.o. w Krakowie wraz z innymi
+              spółkami tworzącymi Grupę "Południe" od 1991 roku zajmują się
+              świadczeniem profesjonalnych usług z zakresu : utrzymania
+              czystości, sprzątania biur i innych nieruchomości utrzymania
+              terenów zielonych, odśnieżania, ochrona mienia, dozorowanie itd.
+              Zapraszamy do odwiedzenia naszego serwisu internetowego, w którym
+              możecie Państwo zapoznać się z naszą ofertą , a także z
+              podstawowymi informacjami na temat naszej działalności
+            </p>
 
+            <a href="#" class="btn btn-primary">
+              Skontaktuj się z nami
+            </a>
+          </div>
+          <div class="col-md-6 d-flex justify-content-start align-items-center">
+            <img src="img/mapa polski.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="site-footer" id="site-footer">
+      <div class="footer-logo-section">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 footer-logos">
+              <img class="footer-logo-img" src="img/logo-biale-1.png" alt="" />
+              <img class="footer-logo-img" src="img/logo-biale-2.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <nav class="footer-navigation">
+        <div class="container footer-nav-wrapper">
+          <ul class="footer-nav" id="site-footer">
+            <li class="menu-item">
+              <a href="#">O nas</a>
+            </li>
+            <li class="menu-item">
+              <a href="#">Aktualności</a>
+            </li>
+            <li class="menu-item current-menu-item">
+              <a href="#">Świadczymy profesjonalne usługi</a>
+            </li>
+            <li class="menu-item">
+              <a href="#">Stacja odstawcza w Bielsku-Białej</a>
+            </li>
+            <li class="menu-item">
+              <a href="#"
+                >Zakład Mechaniczno-biologicznego przetwarzania odpadów w
+                Przemyślu</a
+              >
+            </li>
+            <li class="menu-item">
+              <a href="#">Nieruchomości na wynajem i na sprzedaż</a>
+            </li>
+            <li class="menu-item">
+              <a href="#">Obiekty i usługi handlowe</a>
+            </li>
+            <li class="menu-item">
+              <a href="#">Zarządzanie jakością</a>
+            </li>
+            <li class="menu-item">
+              <a href="#">Kontakt</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </footer>
+    <script src="js/script.js"></script>
+  </body>
 </html>

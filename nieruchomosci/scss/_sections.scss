@@ -1,0 +1,7 @@
+.section-two-columns {
+  @include section-padding;
+  background: #fff;
+  p {
+    text-align: right;
+  }
+}
