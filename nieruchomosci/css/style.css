@@ -141,6 +141,11 @@ p, li {
   height: 50px;
 }
 
+body {
+  min-height: 100vh;
+  background: #eeeeee;
+}
+
 /* KONIEC BRUDNOPISU */
 /* ========================= */
 /* ==== MAIN NAVIGATION ==== */
@@ -148,6 +153,7 @@ p, li {
 /* BASE */
 .site-header .main-navigation {
   position: relative;
+  background: #fff;
 }
 
 @media (max-width: 991px) {
